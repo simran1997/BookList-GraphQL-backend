@@ -37,5 +37,7 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => res.status(200).send("hello world"));
+
 //listen
 app.listen(port, () => console.log(`Listening at localhost: ${port}`));
