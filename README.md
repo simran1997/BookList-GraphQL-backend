@@ -1,8 +1,9 @@
 # BookList-GraphQL-backend
 - A application developed using express, graphql, ReactJS, MongoDB, heroku.
-- In this app all the requests are being handled using GraphQL queries.
+- API routes are defined sing GraphQL.
+- For this, all the requests are being handled using GraphQL queries.
 - Schema for that is defined in file 'Schema.js'.
-- 
+- Database is created and managed by mongoDB instance. 
 - Backend is deployed at https://simran-book-list.herokuapp.com/graphql
 - The frontend of the app is hossted on firebase at https://readinglist-fddf0.web.app/
 
